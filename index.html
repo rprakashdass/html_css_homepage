@@ -1,0 +1,138 @@
+<!--Created and Posted on Github by Prakash Dass R --!>
+<!--Pull a request then make use of it-->
+<!--Opensource-->
+
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Home Page</title>
+    <script type="text/javascript" href="script.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+    <link rel="stylesheet" href="../style/page2.css">
+</head>
+<html>
+
+<body>
+    <header>
+        <nav>
+            <div class="nav-brand">
+                <img src="../images/e1.png" alt="Your Logo">
+                <div class="container">
+                    <h1 class="top-right">LE WELCOME!</h1>
+                     <!--p class="centered">I am here Fine to announce my offiial webpage I invite you all</p-->
+                </div>    
+            </div>
+            <ul class=" nav-links ">
+                <li><a href="#"> Research</a></li>
+                <li><a href="#">Tour</a></li>
+                <li><a href="#">Regarding On</a></li>
+                <li><a href="">SIGN UP</a></li>
+                <div class="center menu">
+                  <div id="myMenu">l</div>
+              </div>
+                <li><a onclick="document.getElementById('id01').style.display='block'" style="cursor: pointer;">LOGIN</a></li>
+            </ul>
+        </nav>
+
+        <div id="id01" class="login-overly">
+          
+          <form class="login-content animate" action="/action_page.php" method="post">
+            <div class="imgcontainer">
+              <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+              <img src="../images/me.jpg" alt="Avatar" class="avatar">
+            </div>
+        
+            <div class="container">
+              <label for="uname"><b>Username</b></label>
+              <input type="text" placeholder="Enter Username" name="uname" required>
+        
+              <label for="psw"><b>Password</b></label>
+              <input type="password" placeholder="Enter Password" name="psw" required>
+                
+              <button type="submit">Login</button>
+              <label>
+                <input type="checkbox" checked="checked" name="remember"> Remember me
+              </label>
+            </div>
+        
+            <div class="container">
+              <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+              <span class="psw">Forgot <a href="#">password?</a></span>
+            </div>
+          </form>
+        </div>
+</header>
+
+   <!-- Add font awesome icons -->
+<div class="allcolor center link" id="socialmlinks ">
+    <a href="# " class="fa fa-facebook "></a>
+    <a href="# " class="fa fa-twitter "></a>
+    <a href="mailto:prakash72716@gmail.com " class="fa fa-google "></a>
+    <a href="# " class="fa fa-linkedin "></a>
+    <a href="# " class="fa fa-youtube "></a>
+    <a href="https://www.instagram.com/___.prakash_/?igshid=YmMyMTA2M2Y%3D " class="fa fa-instagram "></a>
+    <a href="# " class="fa fa-snapchat-ghost "></a>
+    <a href="# " class="fa fa-android "></a>
+</div>
+    <br>
+<div class="nwslet">
+    <form action="#">
+        <div class="container">
+          <h2>Subscribe to our Newsletter</h2>
+          <p>Lorem ipsum text about why you should subscribe to our newsletter blabla. Lorem ipsum text about why you should subscribe to our newsletter blabla.</p>
+        </div>
+      
+        <div class="container" style="background-color:white">
+          <input type="text" placeholder="Name" name="name" required>
+          <input type="text" placeholder="Email address" name="mail" required>
+          <label>
+            <input type="checkbox" checked="checked" name="subscribe"> Daily Newsletter
+          </label>
+        </div>
+      
+        <div class="container">
+          <input type="submit" value="Subscribe">
+        </div>
+   </form>
+  </div>
+  <br>
+
+<footer>
+    <div class="hnav">   
+        <br>
+        <li><a href="#home">HOME</a></li>
+            <li> <a href="#" >CHATROOM</a></li>
+                <li><a href="#">NOTEPAD</a>
+                    <li><a href="#">TO-DO-LIST</a></li>
+                        <li><a href="#tagsec" >TAGS</a>
+                            <li><a href="#socialmlinks">SOCIAL MEDIA</a></li>
+    </div>
+    <hr>
+    <div>
+        <h1>Welcome to My Webpage</h1>
+        <h2>My Page Contains</h2>
+        <p>Pages (HTML)</p>
+        <p>Style Sheets (CSS)</p>
+        <p>Computer Code (JavaScript)</p>
+        <p>Live Data (Github)</p>
+    </div>
+    <hr>
+
+    <div class="pointer" style="text-align: center;">&copy; PrakashR .All copyrights reserved.</div>
+</footer>
+<script>
+    // Get the modal
+var modal = document.getElementById('id01');
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+</script>
+</body>
+</html>
